@@ -1,0 +1,29 @@
+mat-card {
+  display: block;
+  margin-top: 500px;
+  width: 80%;
+  margin: auto;
+  /* background: rgba(15, 65, 173, 0.699); */
+}
+
+mat-form-field,
+input {
+  width: 100%;
+}
+
+input[type="file"] {
+  visibility: hidden;
+}
+
+.image-preview {
+  height: 5rem;
+  margin: 1rem 0;
+}
+
+.image-preview img {
+  height: 100%;
+}
+
+.info-text {
+  text-align: center;
+}
